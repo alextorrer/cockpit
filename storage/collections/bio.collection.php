@@ -23,54 +23,41 @@
     ),
     1 => 
     array (
-      'name' => 'title',
-      'label' => 'Title',
-      'type' => 'text',
+      'name' => 'content',
+      'label' => 'Content',
+      'type' => 'html',
       'default' => '',
       'info' => '',
       'localize' => false,
       'options' => 
       array (
-        'slug' => true,
       ),
       'width' => '1-1',
       'lst' => true,
-      'required' => true,
     ),
     2 => 
     array (
-      'name' => 'image',
-      'label' => 'Featured Image',
-      'type' => 'asset',
+      'name' => 'images',
+      'label' => '',
+      'type' => 'gallery',
       'default' => '',
-      'info' => '',
+      'info' => 'images',
+      'group' => '',
       'localize' => false,
       'options' => 
       array (
       ),
       'width' => '1-1',
       'lst' => true,
-      'required' => false,
-    ),
-    3 => 
-    array (
-      'name' => 'content',
-      'label' => 'Content',
-      'type' => 'markdown',
-      'default' => '',
-      'info' => '',
-      'localize' => false,
-      'options' => 
+      'acl' => 
       array (
       ),
-      'width' => '1-1',
-      'lst' => true,
     ),
   ),
   'sortable' => false,
   'in_menu' => false,
   '_created' => 1611770202,
-  '_modified' => 1611770202,
+  '_modified' => 1611802597,
   'color' => '',
   'acl' => 
   array (
